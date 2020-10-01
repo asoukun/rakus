@@ -1,0 +1,63 @@
+<!doctype html>
+<html long="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"href="style.css"
+    <title>猫の実態</title>
+    <meta name="descrition" content="猫の好きなもの、日々の生活をご紹介">
+</head>
+
+<body>
+    <h1>猫の一日</h1>
+    <p>ひたすら寝ています</p>
+    <table border="1">
+        <tr>
+            <th>プラン名</th>
+            <th>料金</th>
+        </tr>
+        <tr>
+            <td>わくわくプラン</td>
+            <td>月額2,900円</td>
+        </tr>
+        <tr>
+            <td>にこにこプラン</td>
+            <td>月額1,900円</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <th>セル１</th>
+            <th>セル２</th>
+        </tr>
+        <tr>
+            <td rowspan="2">セル３</td>
+            <td>セル４</td>
+        </tr>
+        <tr>
+            <td>セル６</td>
+        </tr>
+    </table>
+    <form action="example.php" method="post" name="contact-form">
+        名前：<input type="text" placeholder="名前">
+        <input type="radio" name="gender" value="男"id="sexmen"><label for="sexmen">男</label>
+        <input type="radio" name="gender" value="女"id="sexwemen" checked><label for="sexwemen">女</label>
+        <input type="radio" name="gender" value="その他"id="sexno"><label for="sexno">その他</label>
+        血液型
+        <select name="bloodtype">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="O">O</option>
+            <option value="AB">AB</option>
+        </select>
+        <textarea name="message" placeholder="メッセージを入力"></textarea>
+        <input type="submit" value="送信する">
+        <input type="image"
+            src="https://news.biglobe.ne.jp/entertainment/0910/3399997455/asj_20200910_asajo_ikeda-250x250.jpg"
+            alt="送信する">
+
+    </form>
+
+</body>
+
+</html>
